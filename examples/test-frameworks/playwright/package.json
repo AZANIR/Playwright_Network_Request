@@ -1,0 +1,19 @@
+{
+  "name": "playwright-network-request-examples",
+  "version": "1.0.0",
+  "description": "Навчальний проект: перехоплення, мокування та API-тестування в Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:module1": "playwright test tests/01-intercepting",
+    "test:module2": "playwright test tests/02-mocking",
+    "test:module3": "playwright test tests/03-api-testing",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
